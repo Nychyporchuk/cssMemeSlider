@@ -2,26 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider</title>
 </head>
 <body>
 <div class="slider-container">
     <div class="slider-images">
-        <div class="slider-image-one"><img class="image-one" src="src/1.jpg" alt="joda"></div>
-        <div class="slider-image-two"><img class="image-two" src="src/1.jpg" alt="joda"></div>
-        <div class="slider-image-three"><img class="image-three" src="src/1.jpg" alt="joda"></div>
-        <div class="slider-image-four"><img class="image-four" src="src/1.jpg" alt="joda"></div>
+        <div class="slider-image-one slider-image"><img class="image-one" src="src/images/1.jpg" alt="joda"></div>
+        <div class="slider-image-two slider-image"><img class="image-two" src="src/images/2.jpg" alt="joda"></div>
+        <div class="slider-image-three slider-image"><img class="image-three" src="src/images/3.jpg" alt="joda"></div>
+        <div class="slider-image-four slider-image"><img class="image-four" src="src/images/4.jpg" alt="joda"></div>
     </div>
     <input type="radio" name="dots" id="dot-item-one" checked>
     <input type="radio" name="dots" id="dot-item-two" >
     <input type="radio" name="dots" id="dot-item-three" >
     <input type="radio" name="dots" id="dot-item-four" >
+    <div class="slider-text-dots-container">
     <div class="slider-text-container">
         <div class="slider-text">
             <div class="text-one"><span>Это я делаю "SHELTER"</span></div>
             <div class="text-two"><span>Это мои дети пытаются сделать мир прекраснее, пока мать в отключке</span></div>
             <div class="text-three"><span>Это голодный муж</span></div>
             <div class="text-four"><span>Это я искала картинки и она мне очень похожа на нашу @muanna</span></div>
+        </div>
+
+    </div>
+
+        <div class="dots-container">
+            <label id="radio-one" class="dot-items" for="dot-item-one"><div class="dot-items-in" id="dot-items-in-one"></div></label>
+            <label id="radio-two" class="dot-items" for="dot-item-two"><div class="dot-items-in" id="dot-items-in-two"></div></label>
+            <label id="radio-three" class="dot-items" for="dot-item-three"><div class="dot-items-in" id="dot-items-in-three"></div></label>
+            <label id="radio-four" class="dot-items" for="dot-item-four"><div class="dot-items-in" id="dot-items-in-four"></div></label>
         </div>
 
     </div>
